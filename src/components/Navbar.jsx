@@ -43,12 +43,12 @@ export const Navbar = () => {
           <ul className="inline-flex space-x-8">
             {menuItems.map((item) => (
               <li key={item.name} className="hover:scale-110">
-                <a
-                  href={item.href}
+                <Link
+                  to={item.href}
                   className="text-lg hover:underline font-semibold text-gray-800 hover:text-gray-900"
                 >
                   {item.name}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
