@@ -29,7 +29,7 @@ export function Footer() {
             </button>
           </form>
         </div>
-        <div className="w-full md:w-1/2 lg:w-2/12 mt-4">
+        <div className="w-full md:w-1/2 lg:w-2/12 mt-4 md:mt-0">
           <div className="h-full">
             <div className="lg:mb-0">
               <p className="mb-4 text-lg font-semibold text-gray-700 ">
@@ -37,7 +37,7 @@ export function Footer() {
               </p>
             </div>
             <ul>
-              <li className="mb-4">
+              <li className="mb-4 pt-2  ">
                 <a
                   className=" text-base font-medium text-gray-900 hover:text-gray-700"
                   href="#"
